@@ -25,3 +25,8 @@ print("Slicing the list from the start to index 4:", l[:4])
 l2 = l.copy()
 print("Copied list l2 :", l2)
 
+#extending a list with string
+l3 = "HI"
+l.extend(l3)
+print("List after extending with l3:", l)
+
