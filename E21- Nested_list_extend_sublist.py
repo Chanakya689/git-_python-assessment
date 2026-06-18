@@ -9,3 +9,4 @@ def extend_sublist(nested_list, sublist):
 
 result = extend_sublist(list1, list2)
 print("The nested list after extending with the sublist is:", result)
+print("The original nested list after extending with the sublist is:", list1)
